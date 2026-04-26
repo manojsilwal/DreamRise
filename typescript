@@ -1,0 +1,25 @@
+Script started on Sun Apr 19 20:35:38 2026
+[1m[7m%[27m[1m[0m                                                   [0m[27m[24m[J(base) manojsilwal@Manojs-MacBook-Pro DreamRise % [K[?2004hc [Kdd [K[A[50C[K[1B[K[A[50Cc [Kdd scripts[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                   [0m[27m[24m[J(base) manojsilwal@Manojs-MacBook-Pro scripts % [K[?2004hbbas [Khh gcp-very ify.sh[1m [0m[0m [?2004l
+
+🔎 DreamRise — deploy verification
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+── Local Paperclip (http://localhost:3100/api/health) ──
+  ✅ Paperclip health OK
+
+── Local OpenClaw gateway (http://127.0.0.1:18789) ──
+  ⚠️  OpenClaw HTTP 000000 (expected some response if gateway is up)
+
+── User systemd units ──
+  ❌ openclaw-gateway: not active
+  ❌ paperclip: not active
+
+── Tailscale (optional) ──
+  (tailscale not installed)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+❌ One or more local checks failed — see journalctl:
+   journalctl --user -u paperclip.service -n 80 --no-pager
+   journalctl --user -u openclaw-gateway.service -n 80 --no-pager
+[1m[7m%[27m[1m[0m                                                   [0m[27m[24m[J(base) manojsilwal@Manojs-MacBook-Pro scripts % [K[?2004h

@@ -1,0 +1,25 @@
+# Paperclip Platform
+paperclip/
+
+# Paperclip local data
+.paperclip/
+
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local

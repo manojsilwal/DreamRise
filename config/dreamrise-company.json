@@ -1,0 +1,90 @@
+{
+  "company": {
+    "name": "DreamRise",
+    "goal": "Build the most intelligent, AI-powered real estate platform that automates property analysis, market research, lead generation, and deal execution — scaling to $1M ARR with zero human employees.",
+    "budget_cents_monthly": 86000
+  },
+  "agents": [
+    {
+      "name": "DreamRise Chief",
+      "title": "Chief Executive Officer",
+      "adapter_type": "claude_local",
+      "heartbeat_interval": "4h",
+      "budget_cents_monthly": 20000,
+      "capabilities": "Strategic planning, goal decomposition, task creation, delegating work to reports, reviewing company-wide progress, real estate strategy",
+      "reports_to": null
+    },
+    {
+      "name": "Tech Architect",
+      "title": "Chief Technology Officer",
+      "adapter_type": "claude_local",
+      "heartbeat_interval": "2h",
+      "budget_cents_monthly": 15000,
+      "capabilities": "Technical architecture, code review, engineering standards, API design, database schema, deployment strategy",
+      "reports_to": "DreamRise Chief"
+    },
+    {
+      "name": "Data Pipeline Specialist",
+      "title": "Senior Data Engineer",
+      "adapter_type": "codex_local",
+      "heartbeat_interval": "1h",
+      "budget_cents_monthly": 10000,
+      "capabilities": "MLS data ingestion, API integrations (Zillow, Redfin, Census), ETL pipelines, data cleaning, property database management",
+      "reports_to": "Tech Architect"
+    },
+    {
+      "name": "Full Stack Builder",
+      "title": "Senior Platform Engineer",
+      "adapter_type": "claude_local",
+      "heartbeat_interval": "1h",
+      "budget_cents_monthly": 10000,
+      "capabilities": "Web platform development, frontend (React/Next.js), backend (Node.js/Python), infrastructure, CI/CD, deployment",
+      "reports_to": "Tech Architect"
+    },
+    {
+      "name": "Revenue Leader",
+      "title": "VP of Sales",
+      "adapter_type": "claude_local",
+      "heartbeat_interval": "3h",
+      "budget_cents_monthly": 8000,
+      "capabilities": "Lead qualification strategy, sales process design, CRM workflow automation, outreach templates, pipeline management",
+      "reports_to": "DreamRise Chief"
+    },
+    {
+      "name": "Outreach Specialist",
+      "title": "Sales Development Representative",
+      "adapter_type": "http",
+      "heartbeat_interval": "2h",
+      "budget_cents_monthly": 5000,
+      "capabilities": "Lead outreach execution, email drafting, CRM updates, follow-up scheduling",
+      "reports_to": "Revenue Leader"
+    },
+    {
+      "name": "Real Estate Researcher",
+      "title": "Senior Market Analyst",
+      "adapter_type": "gemini_local",
+      "heartbeat_interval": "6h",
+      "budget_cents_monthly": 8000,
+      "capabilities": "Market trend analysis, comparable property analysis, investment opportunity scoring, neighborhood demographics, rental yield analysis",
+      "reports_to": "DreamRise Chief"
+    },
+    {
+      "name": "Content Strategist",
+      "title": "VP of Marketing",
+      "adapter_type": "claude_local",
+      "heartbeat_interval": "4h",
+      "budget_cents_monthly": 6000,
+      "capabilities": "Content strategy, SEO optimization, market report authoring, social media planning, email marketing campaigns",
+      "reports_to": "DreamRise Chief"
+    },
+    {
+      "name": "SEO Blog Writer",
+      "title": "Content Writer",
+      "adapter_type": "gemini_local",
+      "heartbeat_interval": "3h",
+      "budget_cents_monthly": 4000,
+      "capabilities": "Blog post writing, property descriptions, neighborhood guides, market reports, SEO-optimized content",
+      "reports_to": "Content Strategist"
+    }
+  ]
+}
