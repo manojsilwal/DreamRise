@@ -1,0 +1,29 @@
+{
+  "property_type": "condo",
+  "max_price": 300000,
+  "max_hoa": 500,
+  "min_cashflow": 0,
+  "university_radius_miles": 10,
+  "train_access_radius_miles": 10,
+  "max_age_years": 70,
+  "target_universities": [
+    "University of Chicago",
+    "Northwestern University",
+    "University of Illinois Chicago",
+    "DePaul University",
+    "Loyola University Chicago"
+  ],
+  "location": "Chicago suburbs",
+  "desirable_features": [
+    "No Rental Restrictions",
+    "Investor Friendly",
+    "In-unit Laundry",
+    "Assigned Parking",
+    "High Reserves"
+  ],
+  "warnings": [
+    "Special Assessments",
+    "Rental Caps",
+    "Waiting Periods"
+  ]
+}
